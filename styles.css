@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(253, 251, 246);
+}
+
+header{
+    margin: 2rem;
+}
+header>h1{
+    text-align: center;
+    color: gold;
+    text-shadow: -1px -1px 0 purple, 1px -1px 0 purple, -1px 1px 0 purple, 1px 1px 0 purple;
+}
+
+header>p{
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.algos{
+    font-weight: 600;
+    font-style: italic;
+}
+
+main{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.algorithm{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.algorithm>p{
+    margin: 1rem 0 0 1rem;
+}
+
+.algo-sorting-heading{
+    letter-spacing: 1.5px;
+}
+
+.language-javascript{
+    font-style: "Source Code Pro";
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    color: gold;
+    text-align: center;
+    font-weight: bold;
+    padding: .2rem;
+}
+
